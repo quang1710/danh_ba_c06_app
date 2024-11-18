@@ -5,10 +5,9 @@ import 'dart:developer';
 import 'package:danh_ba_c06_app/core/network/network_info.dart';
 import 'package:danh_ba_c06_app/core/util/logger/logger.dart';
 import 'package:file_picker/file_picker.dart';
+import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 import 'package:encrypt/encrypt.dart' as encrypt;
-
-const bool kDebugMode = true;
 
 // Thiết lập các phương thức gọi get, post, delete, patch,..
 class ServerApiClient {
